@@ -16,31 +16,29 @@ code {
     monospace;
 }
 
-/* .look {
+.look {
   border-style: dashed;
-} */
+}
+
+.maincontainer {
+  /* padding: 10px 40px; */
+  padding-top: 10px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+}
 /* NavBar */
-ul {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* margin-right: 40px; */
   overflow: hidden;
   background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 94.5%;
-  z-index: 2;
-}
-.navbartop{
-
 }
 
-li {
-  float: left;
-}
+ul.topnav li {float: left;}
 
-li a {
+ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -48,18 +46,27 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-.active {
-  background-color: #4CAF50;
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
 }
 /* ////////////////// */
+
+
 .border {
   border-style: solid;
+  border-left: solid;
+  border-right: solid;
   border-color: teal;
   border-width: 40px;
+  /* z-index: 4; */
+  /* position: fixed; */
 }
 
 .img {
@@ -77,8 +84,9 @@ li a:hover:not(.active) {
 
 }
 .title {
-  margin: 10px;
-  padding: 10px
+  background-image: linear-gradient();
+  margin: 0px;
+  padding: 20px
 }
 
 .timelinecontainer {
