@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
+import PawfectMatch from "../Components/PawfectMatch"
 
 class Timeline extends Component{
   render (){
@@ -12,20 +13,9 @@ class Timeline extends Component{
           <h1> Timeline </h1>
         </center>
           <div class="timeline look">
-            <div class="header">
-              <div class="progress-container">
-                <div class="progress-bar" id="myBar">
-                </div>
-              </div>
-            </div>
           <FabFolio />
           <Bookwyrm />
-            <div class="container right">
-              <div class="content">
-                <h2>2016</h2>
-                <p>Lorem ipsum..</p>
-              </div>
-            </div>
+          <PawfectMatch />
           </div>
       </div>
     )
@@ -33,3 +23,10 @@ class Timeline extends Component{
 }
 
 export default Timeline
+
+// <div class="header">
+// <div class="progress-container">
+// <div class="progress-bar" id="myBar">
+// </div>
+// </div>
+// </div>

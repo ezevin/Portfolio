@@ -4,18 +4,15 @@ import './App.css';
 
 import TitleContainer from './Containers/TitleContainer'
 import Timeline from './Containers/Timeline'
+import NavBar from './Components/NavBar'
 
 function App() {
   return (
-    <>
-    <TitleContainer />
-    <Timeline />
-          <ul>
-            <li> website video</li>
-            <li> link to read-me</li>
-            <li> reviews</li>
-          </ul>
-      </>
+    <div className="border">
+      <NavBar />
+      <TitleContainer />
+      <Timeline />
+    </div>
   );
 }
 

@@ -16,9 +16,52 @@ code {
     monospace;
 }
 
-.look {
+/* .look {
   border-style: dashed;
+} */
+/* NavBar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* margin-right: 40px; */
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 94.5%;
+  z-index: 2;
 }
+.navbartop{
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* ////////////////// */
+.border {
+  border-style: solid;
+  border-color: teal;
+  border-width: 40px;
+}
+
 .img {
   position: absolute;
 }
