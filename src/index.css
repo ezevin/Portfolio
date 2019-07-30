@@ -16,9 +16,9 @@ code {
     monospace;
 }
 
-.look {
+/* .look {
   border-style: dashed;
-}
+} */
 
 .maincontainer {
   /* padding: 10px 40px; */
@@ -34,6 +34,11 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* width: ; */
 }
 
 ul.topnav li {float: left;}
@@ -69,6 +74,10 @@ ul.topnav li.right {float: right;}
   /* position: fixed; */
 }
 
+.scroll {
+  overflow-y: scroll;
+}
+
 .img {
   position: absolute;
 }
@@ -78,15 +87,33 @@ ul.topnav li.right {float: right;}
   max-width: 100%;
   height: auto;
   margin-top: -15px;
+  border-width: thick;
 }
 
 .backtext {
 
 }
 .title {
-  background-image: linear-gradient();
+  background-image: url(https://lh5.googleusercontent.com/JBubgpO_K_KcR7R4mOibnJoY_08SIrYPRoCmqgLoD1Kvvvx7w8sXIx8AN2wK1lWlYm2yLF5FO9zD3n5T3dpCTvGhshcDoyzKb0WIEZ2_unOyeeRNBJP4wtmidSXDu4FnxhXIoFIr);
+  background-attachment: fixed;
+  background-size: cover;
   margin: 0px;
-  padding: 20px
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 60px;
+  color: white;
+  height: 800px;
+}
+
+.text {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-shadow: 10px 10px 10px 10px;
+}
+
+.divider {
+  background-color: black;
+  height: 50px;
 }
 
 .timelinecontainer {
@@ -96,7 +123,8 @@ ul.topnav li.right {float: right;}
 
 .profileimg {
   border-radius: 50%;
-  width: 200px
+  width: 100%;
+  max-width: 300px;
 }
 
 /* timeline css */

@@ -9,9 +9,10 @@ import NavBar from './Components/NavBar'
 function App() {
   return (
     <div className="border">
-      <div className="">
-        <NavBar />
+    <NavBar />
+      <div className="scroll">
         <TitleContainer />
+        <div className="divider"></div>
         <Timeline />
       </div>
     </div>
