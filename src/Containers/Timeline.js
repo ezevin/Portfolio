@@ -8,16 +8,19 @@ class Timeline extends Component{
   render (){
 
     return(
-      <div className="look timelinecontainer">
-        <center>
-          <h1> Timeline </h1>
-        </center>
-          <div class="timeline look">
-          <FabFolio />
-          <Bookwyrm />
-          <PawfectMatch />
-          </div>
-      </div>
+      <>
+        <div className="divider"></div>
+        <div className="look timelinecontainer">
+          <center>
+            <h1> Timeline </h1>
+          </center>
+            <div class="timeline look">
+            <FabFolio />
+            <Bookwyrm />
+            <PawfectMatch />
+            </div>
+        </div>
+      </>
     )
   }
 }

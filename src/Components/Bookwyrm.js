@@ -19,7 +19,6 @@ class Bookwrym extends Component{
                 </h3>
                 <p className="backtext look">Bookwyrm is an online personal library tracker. Where you can check books in and out of your own personal library.</p>
               </div>
-
           </div>
         </div>
       </div>

@@ -94,25 +94,31 @@ ul.topnav li.right {float: right;}
 
 }
 .title {
-  background-image: url(https://lh5.googleusercontent.com/JBubgpO_K_KcR7R4mOibnJoY_08SIrYPRoCmqgLoD1Kvvvx7w8sXIx8AN2wK1lWlYm2yLF5FO9zD3n5T3dpCTvGhshcDoyzKb0WIEZ2_unOyeeRNBJP4wtmidSXDu4FnxhXIoFIr);
+  background-image: url(https://lh3.googleusercontent.com/dDlp2WfGGA5qsQpISTjEYEiQDQ8Uzu5sNWrU1GIFJmiaF-zIVUI--DYlXjMxTPjh2WWcjn9jr9MFGmSK_4Dvxxsc2axL2MoG59_nnjAjMZ2-u9icYLJZunWZVfPBBLg6cg03z3Y-);
   background-attachment: fixed;
   background-size: cover;
   margin: 0px;
   padding: 40px;
   padding-left: 100px;
   padding-right: 60px;
-  color: white;
-  height: 800px;
+  /* height: 800px; */
 }
 
 .text {
-  padding-left: 15%;
-  padding-right: 15%;
-  text-shadow: 10px 10px 10px 10px;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow-y: scroll;
+  font-size: 1.5vw;
+}
+
+.headText {
+  font-size: 3.5vw;
+  text-shadow: 4px 4px 8px ;
 }
 
 .divider {
-  background-color: black;
+  background-color: teal;
   height: 50px;
 }
 
@@ -124,7 +130,8 @@ ul.topnav li.right {float: right;}
 .profileimg {
   border-radius: 50%;
   width: 100%;
-  max-width: 300px;
+  max-width: 20vw;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* timeline css */

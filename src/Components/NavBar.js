@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
+import { Link, withRouter } from 'react-router-dom'
 
 class NavBar extends Component{
   render (){
     return (
       <>
         <ul className="topnav">
-          <li className="navbarlist"><a class="active" href="#home">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
-
+          <li className="navbarlist"><Link to="/home">Home</Link></li>
+          <li><Link to="/News">News</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
+          <li><Link to="/Resume">Resume</Link></li>
+          <button>linkedin</button>
         </ul>
       </>
     )
