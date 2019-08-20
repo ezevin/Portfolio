@@ -14,7 +14,7 @@ class Timeline extends Component{
           <center>
             <h1> Timeline </h1>
           </center>
-            <div class="timeline look">
+            <div className="timeline look">
             <FabFolio />
             <Bookwyrm />
             <PawfectMatch />

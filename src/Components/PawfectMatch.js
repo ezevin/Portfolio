@@ -8,14 +8,14 @@ class PawfectMatch extends Component{
         <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img className="imgcard" src="https://lh4.googleusercontent.com/9bBT719uPax6e6jGeI_GS5t0BaTcXPAPTdWTTS-Ehw0lhHtVMIEZvcGMCYmBVv3ZdhO6UDnU4wUsaHOcNysVsOy8F8-fFMclnMwalEhTdfJykyhP_WMJWz3j2VaeN8ZVjYrCHeyd" alt="Avatar"  />
+                <img className="imgcard" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/68943454_10162181779480322_5964619988185645056_o.jpg?_nc_cat=111&_nc_oc=AQlAcgDikwhAsKc6xgcppIRBZvkHSW32krJ5Z01CWcpBptLFZ8ZZ6QqLfpNnLNH0zmI&_nc_ht=scontent-lga3-1.xx&oh=2e2a091644dd946b6703da05bb5f6e97&oe=5DD57793" alt="Avatar"  />
               </div>
               <div className="flip-card-back">
                 <h3>
                 <a href="https://pawfect-match.herokuapp.com">
                 PawfectMatch (April 2019)
                 </a><br />
-                <a href="">
+                <a href="https://github.com/ezevin/pawfect_match">
                 GitHub
                 </a>
                 </h3>
