@@ -18,13 +18,13 @@ function App() {
       <div className="scroll">
         <TitleContainer />
         <Route path="/home" component={Timeline} />
+        <Route exact path="/news" component={News} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/resume" component={Resume} />
       </div>
     </div>
   );
 }
 
 export default App;
-// <Route exact path="/news" component={News} />
-// <Route exact path="/contact" component={Contact} />
-// <Route exact path="/resume" component={Resume} />
 // <Timeline />

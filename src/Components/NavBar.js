@@ -7,6 +7,10 @@ class NavBar extends Component{
       <>
         <ul className="topnav">
           <li className="navbarlist"><Link to="/home">Home</Link></li>
+          <li><Link to="/News">News</Link></li>
+          <li><Link to="/Resume">Resume</Link></li>
+          <li><a href="https://medium.com/@ehzevin" target="string.new">Blog</a></li>
+          <li><Link to="/Contact">Contact</Link></li>
           <li><a href="https://www.elizabethzevin.com/" target="_blank">Theatre</a></li>
           <li><i className="fab fa-linkedin"></i></li>
           <li></li>
@@ -16,8 +20,3 @@ class NavBar extends Component{
   }
 }
 export default NavBar;
-// <li><Link to="/News">News</Link></li>
-// <li><Link to="/Resume">Resume</Link></li>
-// <li><a href="https://medium.com/@ehzevin" target="string.new">Blog</a></li>
-
-// <li><Link to="/Contact">Contact</Link></li>
