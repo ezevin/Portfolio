@@ -4,7 +4,7 @@ class TitleContainer extends Component{
   render (){
 
     return(
-      <div className="look title">
+      <div className="title">
         <center>
           <br />
           <img className="responsive profileimg" src="https://media.licdn.com/dms/image/C4D03AQHtZveBewmpKQ/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=O0cD11-g5vCxXs_UYg-QWAz5ucseKy8IssCkFGqoptY" alt="Avatar"  />

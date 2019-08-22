@@ -10,11 +10,11 @@ class Contact extends Component{
         <center>
           <h1>Contact</h1>
           <p>
-            <a href="">LinkedIn</a>
-            <a href="">GitHub</a>
-            <a href="">Gmail</a>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
+            <a href="">LinkedIn</a><br />
+            <a href="">GitHub</a><br />
+            <a href="">Gmail</a><br />
+            <a href="">Facebook</a><br />
+            <a href="">Instagram</a><br />
           </p>
         </center>
       </div>

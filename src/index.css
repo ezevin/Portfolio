@@ -106,7 +106,7 @@ ul.topnav li.right {float: right;}
   border-right: solid;
   border-bottom: solid;
   border-color: teal;
-  border-width: 40px;
+  border-width: 3vw;
   /* z-index: 4; */
   /* position: fixed; */
 }
@@ -135,9 +135,9 @@ ul.topnav li.right {float: right;}
   background-attachment: fixed;
   background-size: cover;
   margin: 0px;
-  padding: 40px;
-  padding-left: 100px;
-  padding-right: 60px;
+  padding: 3vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   /* height: 800px; */
 }
 
@@ -156,7 +156,7 @@ ul.topnav li.right {float: right;}
 
 .divider {
   background-color: teal;
-  height: 50px;
+  height: 3vw;
 }
 
 .timelinecontainer {
