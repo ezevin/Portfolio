@@ -10,10 +10,15 @@ class Contact extends Component{
         <center>
           <h1>Contact</h1>
           <p>
-            <a href="">LinkedIn</a><br />
-            <a href="">GitHub</a><br />
+            <a href="https://www.linkedin.com/in/elizabethzevin/" className="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/elizabethzevin/">LinkedIn</a><br />
+            <a href="https://github.com/ezevin" className="fa fa-github"></a>
+            <a href="https://github.com/ezevin">GitHub</a><br />
+            <a href="" className="fa fa-google"></a>
             <a href="">Gmail</a><br />
+            <a href="#" class="fa fa-facebook"></a>
             <a href="">Facebook</a><br />
+            <a href="#" class="fa fa-instagram"></a>
             <a href="">Instagram</a><br />
           </p>
         </center>
