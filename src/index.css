@@ -378,3 +378,14 @@ ul.topnav li.right {float: right;}
   background: #007bb5;
   color: white;
 }
+
+.bold {
+  font-weight: bold
+}
+
+.italics {
+  font-style: italic;
+}
+.indent {
+  text-indent: 5vw;
+}
