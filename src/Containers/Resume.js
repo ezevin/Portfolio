@@ -10,28 +10,36 @@ class Resume extends Component{
         <center>
           <h1>Resume</h1>
         </center>
+        <div className="right">
+          <a href="">pdf version</a>
+        </div>
         <div className="text">
           <h2>Technical Skills:</h2>
-          <p>
             <ul>
-              <li>Ruby (on Rails)</li>
-              <li>HTML/CSS</li>
-              <li>SQL</li>
-              <li>JavaScript ES6</li>
-              <li>React.js</li>
-              <li>Semantic UI</li>
-              <li>Bootstrap</li>
-              <li>Heroku</li>
-              <li>Git</li>
-              <li>AutoCAD</li>
-              <li>Photoshop</li>
-              <li>Microsoft Office</li>
+              <div className="grid">
+                <div>
+                  <li>Ruby (on Rails)</li>
+                  <li>HTML/CSS</li>
+                  <li>SQL</li>
+                  <li>JavaScript ES6</li>
+                </div>
+                <div>
+                  <li>React.js</li>
+                  <li>Semantic UI</li>
+                  <li>Bootstrap</li>
+                  <li>Heroku</li>
+                </div>
+                <div>
+                  <li>Git</li>
+                  <li>AutoCAD</li>
+                  <li>Photoshop</li>
+                  <li>Microsoft Office</li>
+                </div>
+              </div>
           </ul>
-
-          </p>
           <h2>Employment History:</h2>
-          <p>
-            <span className="bold">
+          <div>
+            <span className="bold indent">
               Freelance Pyrotechnician, New York City, New York
               <br />
               Pyrotechnician, Fall 2016 - Present
@@ -70,9 +78,9 @@ class Resume extends Component{
               <br />
               +Repaired, maintained, and procured equipment used to create special effects
               <br />
-          </p>
+          </div>
           <h2>Education:</h2>
-          <p>
+          <div>
             <span className="bold">
               Flatiron School - New York, NY - March 2019 - June, 2019
             </span>
@@ -92,7 +100,12 @@ class Resume extends Component{
             </span>
             <br />
               +B.F.A. Design Technology for Theater (Cum Laude)
-          </p>
+            <br /><br /><br />
+          </div>
+        </div>
+        <div className="right">
+          <a href="">pdf version</a>
+          <br /><br /><br />
         </div>
       </div>
       </>
