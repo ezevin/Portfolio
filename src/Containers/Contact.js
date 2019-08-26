@@ -14,11 +14,11 @@ class Contact extends Component{
             <a href="https://www.linkedin.com/in/elizabethzevin/">LinkedIn</a><br />
             <a href="https://github.com/ezevin" className="fa fa-github"></a>
             <a href="https://github.com/ezevin">GitHub</a><br />
-            <a href="" className="fa fa-google"></a>
-            <a href="">Gmail</a><br />
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="">Facebook</a><br />
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="link" className="fa fa-google"></a>
+            <a href="link">Gmail</a><br />
+            <a href="link" class="fa fa-facebook"></a>
+            <a href="link">Facebook</a><br />
+            <a href="link" class="fa fa-instagram"></a>
             <a href="">Instagram</a><br />
           </p>
         </center>

@@ -11,7 +11,7 @@ class Resume extends Component{
           <h1>Resume</h1>
         </center>
         <div className="right">
-          <a href="">pdf version</a>
+          <a href="link">pdf version</a>
         </div>
         <div className="text">
           <h2>Technical Skills:</h2>
@@ -104,7 +104,7 @@ class Resume extends Component{
           </div>
         </div>
         <div className="right">
-          <a href="">pdf version</a>
+          <a href="link">pdf version</a>
           <br /><br /><br />
         </div>
       </div>
