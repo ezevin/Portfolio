@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import TitleContainer from './TitleContainer'
 import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
@@ -9,8 +10,9 @@ class Timeline extends Component{
 
     return(
       <>
+        <TitleContainer />
         <div className="divider"></div>
-        <div className="look timelinecontainer">
+        <div className="timelinecontainer">
           <center>
             <h1> Timeline </h1>
           </center>

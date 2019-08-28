@@ -5,13 +5,19 @@ class Resume extends Component{
 
     return(
       <>
-      <div className="divider"></div>
       <div>
         <center>
-          <h1>Resume</h1>
+          <h1 id="resume">Skills and Experience</h1>
+          <h2>
+            Elizabeth Zevin
+            <br />
+            914-417-1789 | ehzevin@gmail.com | FDNY COF E-27
+            <br />
+            https://github.com/ezevin | Medium Blog | Theatrical Portfolio
+          </h2>
         </center>
         <div className="right">
-          <a href="link">pdf version</a>
+          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
         </div>
         <div className="text">
           <h2>Technical Skills:</h2>
@@ -104,7 +110,7 @@ class Resume extends Component{
           </div>
         </div>
         <div className="right">
-          <a href="link">pdf version</a>
+          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
           <br /><br /><br />
         </div>
       </div>

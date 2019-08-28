@@ -17,16 +17,17 @@ function App() {
     <div className="border">
     <NavBar />
       <div className="scroll">
-        <TitleContainer />
-        <Route path="/home" component={Timeline} />
+        <Route exact path="/" component={Timeline} />
+        <Route exact path="/home" component={Timeline} />
         <Route exact path="/news" component={News} />
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/resume" component={Resume} />
-      </div>
-    <Footer />
+        </div>
     </div>
   );
 }
 
 export default App;
 // <Timeline />
+// <Footer />
+// <Route exact path="/contact" component={Contact} />
+// <TitleContainer />

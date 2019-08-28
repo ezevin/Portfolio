@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
 }
 
 code {
@@ -84,7 +85,7 @@ code {
   border-bottom: solid;
   border-color: teal;
   border-width: 3vw;
-  border-bottom-width: 5vw;
+  /* border-bottom-width: 5vw; */
   /* z-index: 4; */
   /* position: fixed; */
 }
@@ -330,7 +331,6 @@ code {
   width: 3vw;
   text-decoration: none;
   border-radius: 50%;
-
   float: right;
 }
 
