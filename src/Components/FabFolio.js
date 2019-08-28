@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Fabfolio from "../assets/Fabfolio.png"
+
 class FabFolio extends Component{
   render (){
 
@@ -8,7 +10,7 @@ class FabFolio extends Component{
         <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img className="imgcard" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69259232_10162181772585322_8478469277156900864_o.jpg?_nc_cat=111&_nc_oc=AQlsiyFp2b7-aR5FbT75UWjkx8rcOlLCLU_KIpVx5t5k5uVjNh-jAgkTDo9AhjTO_9I&_nc_ht=scontent-lga3-1.xx&oh=1d9182fd1ec9ff7e84087edcc00fcc0e&oe=5DD1BCC9" alt="Avatar"  />
+                <img className="imgcard" src={Fabfolio} alt="Avatar"  />
               </div>
               <div className="flip-card-back">
                 <h3>

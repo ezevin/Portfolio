@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Profile from "../assets/Profile.jpg"
+
 class TitleContainer extends Component{
   render (){
 
@@ -7,15 +9,23 @@ class TitleContainer extends Component{
       <div className="title">
         <center>
           <br />
-          <img className="responsive profileimg" src="https://media.licdn.com/dms/image/C4D03AQHtZveBewmpKQ/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=O0cD11-g5vCxXs_UYg-QWAz5ucseKy8IssCkFGqoptY" alt="Avatar"  />
+          <img className="responsive profileimg" src={Profile} alt="Avatar"  />
           <br />
           <br />
-          <h1 className="headText"> Elizabeth Zevin </h1>
+          <span className="headText"> Elizabeth Zevin </span>
           <div className="text">
             <p>
             Full stack web developer with a passion for creativity and critical thinking with experience in Ruby on Rails, JavaScript, and React.js. Skilled at team-building, project management, and finding creative solutions to complex problems.
             Previous experience includes technical entertainment/theater and special effects/pyrotechnics. I pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
             </p>
+            <center>
+            <p>
+            <a href="mailto:ehzevin@gmail.com">ehzevin@gmail.com</a>
+            </p>
+            <a href="https://www.linkedin.com/in/elizabethzevin/" className="fa fa-linkedin"></a>
+            <a href="https://github.com/ezevin" className="fa fa-github "></a>
+            <a href="mailto:ehzevin@gmail.com" className="fa fa-envelope"></a>
+            </center>
           </div>
         </center>
       </div>

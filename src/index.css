@@ -117,19 +117,19 @@ code {
   padding: 3vw;
   padding-left: 10vw;
   padding-right: 10vw;
-  /* height: 800px; */
 }
 
 .text {
-  color: black;
+  color: purple;
+  text-emphasis-color: black;
   padding-left: 10%;
   padding-right: 10%;
   overflow-y: scroll;
-  font-size: 1.3vw;
+  font-size: 1.2em;
 }
 
 .headText {
-  font-size: 3.3vw;
+  font-size: 3.3em;
   text-shadow: 4px 4px 8px ;
 }
 
@@ -331,7 +331,7 @@ code {
   width: 3vw;
   text-decoration: none;
   border-radius: 50%;
-  float: right;
+  /* float: right; */
 }
 
 .fa:hover {
