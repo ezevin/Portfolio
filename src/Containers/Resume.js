@@ -16,7 +16,7 @@ class Resume extends Component{
             https://github.com/ezevin | Medium Blog | Theatrical Portfolio
           </h2>
         </center>
-        <div className="right">
+        <div className="shiftRight">
           <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
         </div>
         <div className="text">
@@ -109,7 +109,7 @@ class Resume extends Component{
             <br /><br /><br />
           </div>
         </div>
-        <div className="right">
+        <div className="shiftRight">
           <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
           <br /><br /><br />
         </div>
