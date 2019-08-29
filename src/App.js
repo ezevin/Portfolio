@@ -10,12 +10,14 @@ import Footer from './Components/Footer'
 import News from './Containers/News'
 import Contact from './Containers/Contact'
 import Resume from './Containers/Resume'
+import IconBar from './Components/IconBar'
 
 
 function App() {
   return (
     <div className="border">
     <NavBar />
+    <IconBar />
       <div className="scroll">
         <Route exact path="/" component={Timeline} />
         <Route exact path="/home" component={Timeline} />

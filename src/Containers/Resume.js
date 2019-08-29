@@ -5,6 +5,9 @@ class Resume extends Component{
 
     return(
       <>
+      <br />
+      <br />
+      <br />
       <div>
         <center>
           <h1 id="resume">Skills and Experience</h1>

@@ -32,6 +32,9 @@ code {
 .topnav {
   overflow: hidden;
   background-color: teal;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 4;
 }
 
 .topnav a {
@@ -75,6 +78,23 @@ code {
     text-align: left;
   }
 }
+
+/* Smartphone Portrait and Landscape */
+  .mobileShow {display: none;}
+
+  @media only screen
+    and (max-device-width : 600px){
+      .mobileShow {display: inline;
+                   color: white;
+                  }
+  }
+
+  .mobileHide { display: inline; }
+
+  @media only screen
+    and (max-device-width : 600px){
+     .mobileHide { display: none;}
+  }
 /* ////////////////// */
 
 
@@ -330,7 +350,9 @@ code {
   color: black;
   width: 3vw;
   text-decoration: none;
-  border-radius: 50%;
+  /* border-style: solid; */
+  /* padding: 4vw; */
+  /* border-radius: 50%; */
   /* float: right; */
 }
 
@@ -341,6 +363,36 @@ code {
 .navBarLink {
   color: #f2f2f2;
 }
+
+.icon-bar {
+  position: fixed;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 3
+  /* border-style: solid; */
+  /* border-radius: 50% */
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* end social media */
 
 .bold {
   font-weight: bold

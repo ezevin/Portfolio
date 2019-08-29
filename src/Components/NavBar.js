@@ -20,9 +20,6 @@ class NavBar extends Component{
           <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="navBarLink">Theatre</a>
           <a href="https://www.etsy.com/shop/CraftandEffect" target="_blank" rel="noopener noreferrer" className="navBarLink">Etsy</a>
           <a  class="icon" onClick={this.handleResponse}>&#9776;</a>
-          <a href="https://www.linkedin.com/in/elizabethzevin/" className="fa fa-linkedin active" target="_blank" rel="noopener noreferrer"></a>
-          <a href="https://github.com/ezevin" className="fa fa-github active" target="_blank" rel="noopener noreferrer"></a>
-          <a href="mailto:ehzevin@gmail.com" className="fa fa-envelope active"></a>
         </div>
       </>
     )
