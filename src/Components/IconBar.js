@@ -6,7 +6,6 @@ class IconBar extends Component{
   render (){
     return (
       <>
-        <br /><br />
         <div class="icon-bar">
           <a href="https://www.linkedin.com/in/elizabethzevin/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin" />

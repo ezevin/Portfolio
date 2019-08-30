@@ -8,7 +8,6 @@ class TitleContainer extends Component{
     return(
       <div className="title">
         <center>
-          <br />
           <img className="responsive profileimg" src={Profile} alt="Avatar"  />
           <br />
           <br />
