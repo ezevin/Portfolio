@@ -15,11 +15,11 @@ class Resume extends Component{
               Elizabeth Zevin
             </span>
             <br />
-            <a href="tel:1-914-417-1789">1-914-417-1789 </a>
-            |<a href="mailto:ehzevin@gmail.com"> ehzevin@gmail.com </a>
-            | FDNY COF E-27
+            <a href="tel:1-914-417-1789" className="bodyText">1-914-417-1789 </a>
+            |<a href="mailto:ehzevin@gmail.com" className="bodyText"> ehzevin@gmail.com </a>
+            <span className="bodyText">| FDNY COF E-27</span>
             <br />
-            <a href="https://github.com/ezevin" target="_blank" rel="noopener noreferrer">https://github.com/ezevin</a> | <a href="https://medium.com/@ehzevin" target="string.new">Medium Blog</a> | <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer">Theatrical Portfolio</a>
+            <a href="https://github.com/ezevin" target="_blank" rel="noopener noreferrer" className="bodyText">https://github.com/ezevin</a> | <a href="https://medium.com/@ehzevin" target="string.new" className="bodyText">Medium Blog</a> | <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="bodyText">Theatrical Portfolio</a>
           </span>
         </center>
         <br />
