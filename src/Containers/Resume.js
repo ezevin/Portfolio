@@ -10,10 +10,6 @@ class Resume extends Component{
       <br />
       <div>
         <center>
-          <span className="resumeHead">Skills and Experience</span>
-          <br />
-          <br />
-          <br />
           <span>
             <span className="titleName">
               Elizabeth Zevin
@@ -33,28 +29,20 @@ class Resume extends Component{
         <br />
         <div className="text">
           <span className="bodyHeader">Technical Skills:</span>
-            <ul>
-              <div className="grid bodyText">
-                <div>
-                  <li>Ruby (on Rails)</li>
-                  <li>HTML/CSS</li>
-                  <li>SQL</li>
-                  <li>JavaScript ES6</li>
-                </div>
-                <div>
-                  <li>React.js</li>
-                  <li>Semantic UI</li>
-                  <li>Bootstrap</li>
-                  <li>Heroku</li>
-                </div>
-                <div>
-                  <li>Git</li>
-                  <li>AutoCAD</li>
-                  <li>Photoshop</li>
-                  <li>Microsoft Office</li>
-                </div>
-              </div>
-          </ul>
+            <div className="grid bodyText">
+                <div><li>Ruby (on Rails)</li></div>
+                <div><li>HTML/CSS</li></div>
+                <div><li>SQL</li></div>
+                <div><li>JavaScript ES6</li></div>
+                <div><li>React.js</li></div>
+                <div><li>Semantic UI</li></div>
+                <div><li>Bootstrap</li></div>
+                <div><li>Heroku</li></div>
+                <div><li>Git</li></div>
+                <div><li>AutoCAD</li></div>
+                <div><li>Photoshop</li></div>
+                <div><li>Microsoft Office</li></div>
+            </div>
           <span className="bodyHeader">Employment History:</span>
           <br />
           <br />
