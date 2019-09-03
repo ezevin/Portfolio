@@ -424,12 +424,13 @@ code {
   font-size: 1rem;
   font-weight: bold;
   color: black;
-  margin: 3vw;
+  margin-left: 3vw;
 }
 
 .bold {
   font-weight: bold;
   color: black;
+  margin-left: 2vw
 }
 
 .italics {
@@ -437,7 +438,7 @@ code {
   color: black;
 }
 .indent {
-  text-indent: 5vw;
+  text-indent: 2vw;
 }
 
 .grid {
@@ -467,11 +468,22 @@ code {
   }
 }
 
-
 .shiftRight {
   text-align: right;
   padding-right: 5vw;
   font-size: 1rem;
 }
 
+.contactInfo{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5vw;
+  /* border-style: solid;
+  border-color: black; */
+}
+
+.contactInfoText {
+
+}
 /* End Resume Layout */
