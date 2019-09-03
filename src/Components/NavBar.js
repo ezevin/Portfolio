@@ -20,18 +20,30 @@ class NavBar extends Component{
           <a href="https://medium.com/@ehzevin" target="string.new" className="navBarLink">Blog</a>
           <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="navBarLink">Theatre</a>
           <a href="https://www.etsy.com/shop/CraftandEffect" target="_blank" rel="noopener noreferrer" className="navBarLink">Etsy</a>
-          <a  class="icon" onClick={this.handleResponse}>&#9776;</a>
+          <a  className="icon" onClick={this.handleResponse}>&#9776;</a>
           <a href="https://www.linkedin.com/in/elizabethzevin/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin mobileHide" />
-            <p className="mobileShow"> <i className="fa fa-linkedin"/>  LinkedIn</p>
+            <p className="mobileShow "> <i className="fa fa-linkedin"/>
+              <span className="navLogo">  LinkedIn </span>
+            </p>
           </a>
           <a href="https://github.com/ezevin" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github mobileHide" />
-            <p className="mobileShow"> <i className="fa fa-github"/>  GitHub</p>
+            <p className="mobileShow "> <i className="fa fa-github"/>
+              <span className="navLogo"> GitHub </span>
+            </p>
           </a>
           <a href="mailto:ehzevin@gmail.com">
             <i className="fa fa-envelope mobileHide"/>
-            <p className="mobileShow"> <i className="fa fa-envelope"/>  Gmail</p>
+            <p className="mobileShow "> <i className="fa fa-envelope"/>
+              <span className="navLogo"> Gmail </span>
+            </p>
+          </a>
+          <a href="tel:1-914-417-1789">
+           <i className="fa fa-phone mobileHide" />
+           <p className="mobileShow "> <i className="fa fa-phone"/>
+            <span className="navLogo"> Phone Number </span>
+           </p>
           </a>
         </div>
       </>
@@ -40,5 +52,4 @@ class NavBar extends Component{
 }
 export default NavBar;
 
-// <Link to="/Contact" className="navBarLink">Contact</Link>
 // <li><Link to="/News" className="navBarLink">News</Link></li>

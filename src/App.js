@@ -2,13 +2,8 @@ import React from 'react';
 import { Route } from 'react-router-dom'
 
 import './App.css';
-
-import TitleContainer from './Containers/TitleContainer'
 import Timeline from './Containers/Timeline'
 import NavBar from './Components/NavBar'
-import Footer from './Components/Footer'
-import News from './Containers/News'
-import Contact from './Containers/Contact'
 import Resume from './Containers/Resume'
 import IconBar from './Components/IconBar'
 
@@ -28,8 +23,3 @@ function App() {
 }
 
 export default App;
-// <Timeline />
-// <Footer />
-// <Route exact path="/contact" component={Contact} />
-// <Route exact path="/news" component={News} />
-// <TitleContainer />

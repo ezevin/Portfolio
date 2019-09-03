@@ -10,29 +10,19 @@ class Resume extends Component{
       <br />
       <div>
         <center>
-          <span>
-            <span className="titleName">
-              Elizabeth Zevin
-            </span>
-            <br />
-            <br />
-            <br />
-            <div className="contactInfo">
-            <a href="tel:1-914-417-1789" className="contactInfoText">1-914-417-1789 | </a>
-            <a href="mailto:ehzevin@gmail.com" className="contactInfoText"> ehzevin@gmail.com </a>
-            <span className="contactInfoText">| FDNY COF E-27</span>
-
-            <a href="https://github.com/ezevin" target="_blank" rel="noopener noreferrer" className="contactInfoText">https://github.com/ezevin </a> <a href="https://medium.com/@ehzevin" target="string.new" className="contactInfoText">Medium Blog |</a> <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="contactInfoText">Theatrical Portfolio</a>
-            </div>
+          <span className="titleName ">
+            Skills and Experience
           </span>
+          <br />
         </center>
         <br />
         <div className="shiftRight">
           <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
         </div>
         <br />
-        <div className="text">
+        <div>
           <span className="bodyHeader">Technical Skills:</span>
+          <br /><br />
             <div className="grid bodyText">
                 <div><li>Ruby (on Rails)</li></div>
                 <div><li>HTML/CSS</li></div>
@@ -47,6 +37,7 @@ class Resume extends Component{
                 <div><li>Photoshop</li></div>
                 <div><li>Microsoft Office</li></div>
             </div>
+            <br /> <br />
           <span className="bodyHeader">Employment History:</span>
           <br />
           <br />
