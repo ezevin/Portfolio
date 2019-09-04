@@ -37,20 +37,20 @@ class Resume extends Component{
                 <div><li>Photoshop</li></div>
                 <div><li>Microsoft Office</li></div>
             </div>
-            <br /> <br />
+            <br />
           <span className="bodyHeader">Employment History:</span>
           <br />
           <br />
-          <div>
-            <p className="bold">
+          <div className="resumeText">
+            <div className="bold">
               Freelance Pyrotechnician, New York City, New York
               <br />
               Pyrotechnician, Fall 2016 - Present
-            </p>
-            <p className="italics indent">
+            </div>
+            <div className="italics">
               Signature Theater, Playwrights Horizons, Forged In Fire  (Television)
-            </p>
-            <p className="bodyText">
+            </div>
+            <div className="bodyText">
               +Responsible for lead set up and running effects for multiple productions
             <br />
               +Worked to maintain sustainability and reusability of effects
@@ -58,66 +58,66 @@ class Resume extends Component{
               +Monitored fire and pyrotechnics on stage and set
             <br />
               +Maintained OSHA and FDNY safety standards for both actors and crew
-            </p>
-            <p className="bold">
+            </div><br />
+            <div className="bold">
               Prop n Spoon, Rahway, New Jersey
               <br />
               Props Artisan, Fall 2018
-            </p>
-            <p className="bodyText">
+            </div>
+            <div className="bodyText">
               +Researched props and scenic elements for commercials, theater, film
               <br />
               +Built and painted props and scenic elements for commercials, theater, film
-            </p>
-            <p className="bold">
+            </div>
+            <br />
+            <div className="bold">
               J&M Special Effects, Brooklyn, New York
               <br />
               FX Technician, 2016 - 2018
-            </p>
-            <p className="bodyText">
+            </div>
+            <div className="bodyText">
               +Created special effects for commercials, theater, film, television, print ads
               <br />
               +Lead confetti, pyrotechnics, wind, water, fire, snow, and blood effects
               <br />
               +Repaired, maintained, and procured equipment used to create special effects
               <br />
-            </p>
+            </div>
           </div>
           <br />
           <span className="bodyHeader">Education:</span>
           <br />
           <br />
-          <div>
-            <span className="bold">
+          <div className="resumeText">
+            <div className="bold">
               Flatiron School - New York, NY - March 2019 - June, 2019
-            </span>
-            <br />
-            <p className="bodyText">
+            </div>
+            <div className="bodyText">
               +Full Stack Web Development, Ruby on Rails, JavaScript, React.js
-            </p>
-            <p className="bold">
-              Yale School of Drama - New Haven, CT - Class of 2012
-            </p>
-            <p className="bodyText">
+            </div><br />
+            <div className="bold">
+              Yale School of Drama - New Haven, CT - Class of 2014
+            </div>
+            <div className="bodyText">
               +Technical Internship Certificate
               <br />
               +Properties Internship Certificate
-            </p>
-            <span className="bold">
+            </div><br />
+            <div className="bold">
               Emerson College - Boston, MA - Class of 2011
-            </span>
-            <br />
-            <p className="bodyText">
+            </div>
+            <div className="bodyText">
               +B.F.A. Design Technology for Theater (Cum Laude)
-            </p>
+            </div>
           </div>
           <br />
           <span className="bodyHeader">Certifications:</span>
           <br />
-
-          <p className="bodyText">
-            <li>FDNY Certificate of Fitness Class C E-27 - Pyrotechnics</li>
-          </p>
+          <div className="resumeText">
+            <p className="bodyText">
+              <li>FDNY Certificate of Fitness Class C E-27 - Pyrotechnics</li>
+            </p>
+          </div>
           <div>
           </div>
           <br /><br /><br />
