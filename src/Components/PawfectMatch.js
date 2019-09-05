@@ -21,9 +21,18 @@ class PawfectMatch extends Component{
                 GitHub
                 </a>
                 </h3>
+                <span className="backTag">Social media/Dating app for the household pet, built in collaboration with <a href="https://github.com/danielmartin0126">Danny Martin</a></span><br />
                 <p className="backtext look">Pawfect Match is a dating app for your pet. It allows your pet to go "walking with" or "sniff out" other pets of interest.</p>
-              </div>
-
+              <div className="backFacts">
+              Built With:
+              <ul>
+                <li>Developed using Ruby on Rails MVC for Frontend and Backend</li>
+                <li>User login using sessions/cookies</li>
+                <li>Applied bcrypt authentication for secure user login</li>
+                <li>Bootstrap was employed to help style CSS</li>
+              </ul>
+            </div>
+            </div>
           </div>
         </div>
       </div>

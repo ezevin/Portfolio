@@ -94,7 +94,7 @@ code {
 
   @media only screen
     and (max-device-width : 630px){
-      .mobileShow {display: inline;
+      .mobileShow {display: flex;
                   }
   }
 
@@ -166,9 +166,31 @@ code {
   height: 3vw;
 }
 
+.timelineHeader{
+  text-decoration: underline;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.backtext{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.backFacts{
+  text-align: left;
+  font-size: 1em;
+}
+
+.backTag{
+  font-style: italic;
+  font-size: 1.1em;
+}
 .timelinecontainer {
   margin: 10px;
-  padding: 10px
+  padding: 10px;
+  background-color: grey;
 }
 
 .profileimg {
@@ -182,6 +204,8 @@ code {
 
 
 /* The actual timeline (the vertical ruler) */
+
+
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -415,22 +439,27 @@ code {
 @media screen and (max-width: 450px) {
   .titleName {
     font-size: 1.7rem;
-    margin-left: 9vw
+    margin-left: 9vw;
+    margin-bottom: 1.5vw;
   }
   .bodyHeader{
     margin-left: 5vw;
+    margin-bottom: 1.5vw;
   }
   .bodyText {
     margin-left: 15vw;
     margin-right: 8vw;
+    margin-bottom: 1.5vw;
   }
   .bold {
     margin-left: 10vw;
     margin-right: 8vw;
+    margin-bottom: 1.5vw;
   }
   .italics {
     margin-left: 10vw;
     margin-right: 8vw;
+    margin-bottom: 1.5vw;
   }
 }
 
@@ -507,5 +536,15 @@ code {
 
 .resumeText {
   margin-left: 10vw;
+}
+
+.bio {
+  margin-left: 13vw;
+  margin-right: 10vw;
+  font-size: 1rem;
+  font-style: italic;
+  border-style: groove;
+  padding: 1vw;
+  font-weight: bold;
 }
 /* End Resume Layout */

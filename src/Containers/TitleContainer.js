@@ -14,8 +14,7 @@ class TitleContainer extends Component{
           <span className="headText"> Elizabeth Zevin </span>
           <div className="text">
             <p>
-            Full stack web developer with a passion for creativity and critical thinking with experience in Ruby on Rails, JavaScript, and React.js. Skilled at team-building, project management, and finding creative solutions to complex problems.
-            Previous experience includes technical entertainment/theater and special effects/pyrotechnics. I pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
+            Full Stack Web Developer 
             </p>
             <center>
             <p>

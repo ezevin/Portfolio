@@ -14,12 +14,14 @@ class Timeline extends Component{
         <div className="divider"></div>
         <div className="timelinecontainer">
           <center>
-            <h1> Timeline </h1>
+            <span className="timelineHeader"> Timeline </span>
+            <br /><br />
           </center>
             <div className="timeline look">
             <FabFolio />
             <Bookwyrm />
             <PawfectMatch />
+            <br />
             </div>
         </div>
       </>
