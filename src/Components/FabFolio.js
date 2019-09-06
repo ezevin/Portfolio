@@ -13,24 +13,35 @@ class FabFolio extends Component{
                 <img className="imgcard" src={Fabfolio} alt="Avatar"  />
               </div>
               <div className="flip-card-back">
-                <h3>
-                <a href="https://fabfolio.herokuapp.com/">
-                FabFolio (June 2019)
-                </a><br />
-                <a href="https://github.com/ezevin/Project-tracker-frontend-2">
-                GitHub Front End
+                <a href="https://fabfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <div className="backTitle">
+                    FabFolio (June 2019)
+                  </div>
                 </a>
-                </h3>
-                <span className="backTag">A Fabricators Portfolio</span><br />
-                <p className="backtext">A project tracking app for the Freelance Artisan. It is a way for the artisan to track the materials they have in stock, as well as the projects they are working on. While tracking their projects they can also track notes, to-do-lists, process photos, materials used and research photos. Once a project is completed it can then be added to their Final Projects Portfolio.</p>
-                <div className="backFacts">
-                Built With:
-                <ul>
-                  <li>Developed a Ruby on Rails API backend with endpoints for users, projects and materials</li>
-                  <li>Implemented User Interface employing React.js with Semantic-React and Custom CSS for styling</li>
-                  <li>Utilized JSON Web Tokens and localStorage to store encrypted user information client-side</li>
-                  <li>Adapted Cloudinary to upload images to page from computer files</li></ul>
+                <div className="mobileHide">
+                <div className="backTitle">
+                  <a href="https://github.com/ezevin/Project-tracker-frontend-2" target="_blank" rel="noopener noreferrer">
+                    GitHub Front End
+                    <p className="mobileHide"> || </p>
+                  </a>
+                  <a href="https://github.com/ezevin/project-tracker-backend-2" target="_blank" rel="noopener noreferrer">
+                    GitHub Back End
+                  </a>
                 </div>
+                </div>
+                <div className="mobileShow backTitle">
+                  <a href="https://github.com/ezevin/Project-tracker-frontend-2" target="_blank" rel="noopener noreferrer">
+                    GitHub Front End
+                  </a>
+                </div>
+                <div className="mobileShow backTitle">
+                  <a href="https://github.com/ezevin/project-tracker-backend-2" target="_blank" rel="noopener noreferrer">
+                    GitHub Back End
+                  </a>
+                </div>
+                <br />
+                <span className="backTag">A Fabricators Portfolio</span>
+                <p className="backtext">A project tracking app for the Freelance Artisan. It is a way for the artisan to track the materials they have in stock, as well as the projects they are working on. While tracking their projects they can also track notes, to-do-lists, process photos, materials used and research photos. Once a project is completed it can then be added to their Final Projects Portfolio.</p>
               </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ class Resume extends Component{
         <center>
           <div className="bio">
             Full Stack Web Developer with a passion for creativity and critical thinking with experience in Ruby on Rails, JavaScript, and React.js. Skilled at team-building, project management, and finding creative solutions to complex problems.
-            Previous experience includes technical entertainment/theater and special effects/pyrotechnics. I pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
+            Previous experience includes technical entertainment/theater and special effects/pyrotechnics. Pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
           </div>
           <br />
           <br />
@@ -44,6 +44,80 @@ class Resume extends Component{
                 <div><li>Microsoft Office</li></div>
             </div>
             <br />
+          <span className="bodyHeader">Technical Projects</span>
+          <br />
+          <br />
+          <div className="resumeText">
+            <div className="bold">
+              FabFolio (June 2019)  <span></span>
+            </div>
+            <div className="italics">
+              A Fabricators Portfolio
+            </div>
+            <div className="bodyText">
+              +Developed a Ruby on Rails API backend with endpoints for users, projects and materials
+            <br />
+              +Implemented User Interface employing React.js with Semantic-React and Custom CSS for styling
+            <br />
+              +Utilized JSON Web Tokens and localStorage to store encrypted user information client-side
+            <br />
+              +Adapted Cloudinary to upload images to page from computer files
+            </div>
+            <a href="https://github.com/ezevin/Project-tracker-frontend-2" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            GitHub Front End <p className="mobileHide"> | </p>
+            </a>
+            <div className="mobileShow"></div>
+            <a href="https://github.com/ezevin/project-tracker-backend-2" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            GitHub Back End <p className="mobileHide"> | </p>
+            </a>
+            <div className="mobileShow"></div>
+            <a href="https://fabfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            https://fabfolio.herokuapp.com/
+            </a>
+            <br /> <br />
+            <div className="bold">
+              Bookwyrm (May 2019)  <span></span>
+            </div>
+            <div className="italics">
+              A personal library tracking app
+            </div>
+            <div className="bodyText">
+              +Developed a Rails API backend with endpoints for users, libraries and books
+            <br />
+              +Implemented User Interface employing React.js with Semantic-React and Custom CSS for styling
+            <br />
+              +Utilized JSON Web Tokens and localStorage to store encrypted user information client-side
+            </div>
+            <a href="https://github.com/ezevin/BookWyrm" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            GitHub
+            </a>
+            <br /> <br />
+            <div className="bold">
+              PawfectMatch (April 2019) <span></span>
+            </div>
+            <div className="italics">
+              Social media/Dating app for the household pet, built in collaboration with <a href="https://github.com/danielmartin0126" target="_blank" rel="noopener noreferrer">Danny Martin</a>
+            </div>
+            <div className="bodyText">
+              +Developed using Ruby on Rails MVC for Frontend and Backend
+            <br />
+              +User login using sessions/cookies
+            <br />
+              +Applied bcrypt authentication for secure user login
+            <br />
+              +Bootstrap was employed to help style CSS
+            </div>
+            <a href="https://github.com/ezevin/pawfect_match" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            GitHub<p className="mobileHide"> | </p>
+            </a>
+            <div className="mobileShow"></div>
+            <a href="https://pawfect-match.herokuapp.com" target="_blank" rel="noopener noreferrer" className="resumeLinks">
+            https://pawfect-match.herokuapp.com
+            </a>
+            <br />
+          </div>
+          <br />
+          <br />
           <span className="bodyHeader">Employment History:</span>
           <br />
           <br />

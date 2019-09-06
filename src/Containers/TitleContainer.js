@@ -6,28 +6,48 @@ class TitleContainer extends Component{
   render (){
 
     return(
-      <div className="title">
+      <>
+      <div className="title box-slide reveal-top">
+        <div className="reveal-content">
+          <h1>Hello</h1>
+        </div>
         <center>
+          <br />
           <img className="responsive profileimg" src={Profile} alt="Avatar"  />
           <br />
           <br />
-          <span className="headText"> Elizabeth Zevin </span>
+          <div className="headText"> Elizabeth Zevin </div><br />
           <div className="text">
-            <p>
-            Full Stack Web Developer 
-            </p>
+            Full Stack Web Developer
+            <br />
             <center>
-            <p>
-            <a href="mailto:ehzevin@gmail.com">ehzevin@gmail.com</a>
-            </p>
-            <a href="https://www.linkedin.com/in/elizabethzevin/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://github.com/ezevin" className="fa fa-github " target="_blank" rel="noopener noreferrer"></a>
-            <a href="mailto:ehzevin@gmail.com" className="fa fa-envelope"></a>
-            <a href="tel:1-914-417-1789" className="fa fa-phone"></a>
+            <a href="https://www.linkedin.com/in/elizabethzevin/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-linkedin" />
+            </a>
+            <a href="https://github.com/ezevin" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" />
+            </a>
+            <a href="mailto:ehzevin@gmail.com">
+              <i className="fa fa-envelope" />
+            </a>
+            <a href="tel:1-914-417-1789">
+              <i className="fa fa-phone" />
+            </a>
             </center>
           </div>
         </center>
       </div>
+  <div class="box-slide">
+     <div class="reveal-content">
+       <h1>Hello</h1>
+     </div>
+    <div class="reveal-top">
+      <div class="reveal-content caption">
+        <h1>Hover me</h1>
+      </div>
+    </div>
+  </div>
+</>
     )
   }
 }
