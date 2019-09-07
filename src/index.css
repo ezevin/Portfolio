@@ -603,12 +603,12 @@ code {
 }
 
 .box-slide:hover .reveal-top {
-  top: -100%;
+  left: -25%
 }
 
 .reveal-content {
   /* box-shadow: 1px 1px 3px rgba(0,0,0,0.3) inset; */
-  padding: 100px;
+  padding: 10vw;
   /* color: #000; */
   /* background: #fdc424; */
   transition: left 0.4 ease;
@@ -628,5 +628,10 @@ code {
 .caption {
   background: #222;
   color: #fff;
+}
+
+.bioText {
+  text-align: right;
+  padding-left: 50vw;
 }
 /* End Slide Reveal */
