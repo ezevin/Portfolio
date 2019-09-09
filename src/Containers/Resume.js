@@ -23,7 +23,7 @@ class Resume extends Component{
         </center>
         <br />
         <div className="shiftRight">
-          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
+          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf version</a>
         </div>
         <br />
         <div>
@@ -254,7 +254,7 @@ class Resume extends Component{
           <br /><br /><br />
         </div>
         <div className="shiftRight">
-          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view" target="_blank" rel="noopener noreferrer">pdf version</a>
+          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf version</a>
           <br /><br /><br />
         </div>
       </div>
