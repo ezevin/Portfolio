@@ -4,6 +4,7 @@ import TitleContainer from './TitleContainer'
 import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
+import AboutMe from "../Components/AboutMe"
 
 class Timeline extends Component{
   render (){
@@ -11,6 +12,7 @@ class Timeline extends Component{
     return(
       <>
         <TitleContainer />
+
         <div className="divider"></div>
         <div className="timelinecontainer">
           <center>
