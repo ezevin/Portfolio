@@ -12,10 +12,12 @@ class AboutMe extends Component{
             <br />
             <br />
         </center>
+
         <div className="headText"> Elizabeth Zevin
         </div>
         <br />
         <div className="text">
+
          Full Stack Web Developer
           <br />
 
