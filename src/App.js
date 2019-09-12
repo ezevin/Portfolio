@@ -15,7 +15,7 @@ function App() {
     <IconBar />
       <div className="scroll">
         <Route exact path="/" component={Timeline} />
-        <Route exact path="/home" component={Timeline} />
+        <Route exact path="/portfolio" component={Timeline} />
         <Route exact path="/resume" component={Resume} />
         </div>
     </div>
