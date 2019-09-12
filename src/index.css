@@ -534,7 +534,7 @@ code {
 
 .icon-bar {
   position: fixed;
-  top: 20%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -667,6 +667,9 @@ code {
     grid-template-columns: 1fr;
     margin-left: 20vw;
   }
+  .resumeHeader{
+    font-size: 1.5em;
+  }
 }
 
 .shiftRight {
@@ -689,4 +692,6 @@ code {
   padding: 1vw;
   font-weight: bold;
 }
+
+
 /* End Resume Layout */

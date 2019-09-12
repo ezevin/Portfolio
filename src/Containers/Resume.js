@@ -5,26 +5,17 @@ class Resume extends Component{
 
     return(
       <>
-      <br />
-      <br />
-      <br />
-      <div>
+      <div className="timelinecontainer">
         <center>
-          <div className="bio">
-            Full Stack Web Developer with a passion for creativity and critical thinking with experience in Ruby on Rails, JavaScript, and React.js. Skilled at team-building, project management, and finding creative solutions to complex problems.
-            Previous experience includes technical entertainment/theater and special effects/pyrotechnics. Pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
-          </div>
+        <div className="shiftRight">
+        <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
+        </div>
           <br />
-          <br />
-          <br />
-          <span className="titleName ">
+          <span className="timelineHeader resumeHeader">
             Skills and Experience
           </span>
         </center>
         <br />
-        <div className="shiftRight">
-          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf version</a>
-        </div>
         <br />
         <div>
           <span className="bodyHeader">Technical Skills:</span>
@@ -254,7 +245,7 @@ class Resume extends Component{
           <br /><br /><br />
         </div>
         <div className="shiftRight">
-          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf version</a>
+          <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
           <br /><br /><br />
         </div>
       </div>
@@ -264,3 +255,8 @@ class Resume extends Component{
 }
 
 export default Resume
+
+// <div className="bio">
+//   Full Stack Web Developer with a passion for creativity and critical thinking with experience in Ruby on Rails, JavaScript, and React.js. Skilled at team-building, project management, and finding creative solutions to complex problems.
+//   Previous experience includes technical entertainment/theater and special effects/pyrotechnics. Pursued web development for the stimulating challenge and the joy of magically transforming visions to reality that it provides.
+// </div>

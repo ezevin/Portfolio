@@ -16,7 +16,6 @@ class NavBar extends Component{
       <>
         <div className="topnav" id="myTopnav">
           <Link to="/home" className="active">Home</Link>
-          <Link to="/Resume" className="navBarLink">Resume</Link>
           <a href="https://medium.com/@ehzevin" target="string.new" className="navBarLink">Blog</a>
           <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="navBarLink">Theatre</a>
           <a href="https://www.etsy.com/shop/CraftandEffect" target="_blank" rel="noopener noreferrer" className="navBarLink">Etsy</a>
@@ -53,3 +52,4 @@ class NavBar extends Component{
 export default NavBar;
 
 // <li><Link to="/News" className="navBarLink">News</Link></li>
+// <Link to="/Resume" className="navBarLink">Resume</Link>

@@ -5,6 +5,7 @@ import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
 import AboutMe from "../Components/AboutMe"
+import Resume from "./Resume"
 
 class Timeline extends Component{
   render (){
@@ -12,9 +13,11 @@ class Timeline extends Component{
     return(
       <>
         <TitleContainer />
-
         <div className="divider"></div>
         <div className="timelinecontainer">
+        <div className="shiftRight">
+        <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
+        </div>
           <center>
             <span className="timelineHeader"> Timeline </span>
             <br /><br />
@@ -25,7 +28,12 @@ class Timeline extends Component{
             <PawfectMatch />
             <br />
             </div>
-        </div>
+            <div className="shiftRight">
+            <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
+            </div>
+            </div>
+            <div className="divider"></div>
+            <Resume />
       </>
     )
   }
