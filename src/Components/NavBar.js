@@ -15,11 +15,11 @@ class NavBar extends Component{
     return (
       <>
         <div className="topnav" id="myTopnav">
-          <Link to="/home" className="active">Home</Link>
           <a href="https://medium.com/@ehzevin" target="string.new" className="navBarLink">Blog</a>
           <a href="https://www.elizabethzevin.com/" target="_blank" rel="noopener noreferrer" className="navBarLink">Theatre</a>
           <a href="https://www.etsy.com/shop/CraftandEffect" target="_blank" rel="noopener noreferrer" className="navBarLink">Etsy</a>
           <a  className="icon" onClick={this.handleResponse}>&#9776;</a>
+          <div className="mobileHide navIcon" >
           <a href="https://www.linkedin.com/in/elizabethzevin/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin mobileHide" />
             <p className="mobileShow "> <i className="fa fa-linkedin"/>
@@ -44,6 +44,7 @@ class NavBar extends Component{
             <span className="navLogo"> Phone Number </span>
            </p>
           </a>
+          </div>
         </div>
       </>
     )
