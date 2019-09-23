@@ -51,6 +51,3 @@ class NavBar extends Component{
   }
 }
 export default NavBar;
-
-// <li><Link to="/News" className="navBarLink">News</Link></li>
-// <Link to="/Resume" className="navBarLink">Resume</Link>

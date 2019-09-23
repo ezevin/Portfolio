@@ -12,16 +12,14 @@ class AboutMe extends Component{
             <br />
             <br />
         </center>
-
-        <div className="headText"> Elizabeth Zevin
+        <div className="headText">
+          Elizabeth Zevin
         </div>
         <br />
         <div className="text">
-
          Full Stack Web Developer
-          <br />
-
-        <center>
+           <br /
+          <center>
             <a href="https://www.linkedin.com/in/elizabethzevin/" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-linkedin" />
             </a>
@@ -35,9 +33,8 @@ class AboutMe extends Component{
               <i className="fa fa-phone" />
             </a>
           </center>
-          </div>
-          </div>
-
+        </div>
+    </div>
     )
   }
 }

@@ -8,17 +8,17 @@ class FabFolio extends Component{
     return(
       <div className="container left ">
         <div className="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img className="imgcard" src={Fabfolio} alt="Avatar"  />
-              </div>
-              <div className="flip-card-back">
-                <a href="https://fabfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <div className="backTitle">
-                    FabFolio (June 2019)
-                  </div>
-                </a>
-                <div className="mobileHide">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className="imgcard" src={Fabfolio} alt="Avatar"  />
+            </div>
+            <div className="flip-card-back">
+              <a href="https://fabfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <div className="backTitle">
+                  FabFolio (June 2019)
+                </div>
+              </a>
+              <div className="mobileHide">
                 <div className="backTitle">
                   <a href="https://github.com/ezevin/Project-tracker-frontend-2" target="_blank" rel="noopener noreferrer">
                     GitHub Front End
