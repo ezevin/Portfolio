@@ -6,6 +6,7 @@ import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
 import AboutMe from "../Components/AboutMe"
 import Resume from "./Resume"
+import TimelineCSS from "../CSS/TimelineCSS.css"
 
 class Timeline extends Component{
   render (){
@@ -27,9 +28,6 @@ class Timeline extends Component{
             <Bookwyrm />
             <PawfectMatch />
             <br />
-            </div>
-            <div className="shiftRight">
-            <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
             </div>
             </div>
             <div className="divider"></div>

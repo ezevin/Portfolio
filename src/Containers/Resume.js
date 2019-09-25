@@ -7,9 +7,6 @@ class Resume extends Component{
       <>
       <div className="timelinecontainer">
         <center>
-        <div className="shiftRight">
-        <a href="https://drive.google.com/file/d/0Bzo7b51IJkBOOUVrSm1VNGZGVWRCajRXeUxnR09DOFNBYkJn/view?usp=sharing" target="_blank" rel="noopener noreferrer">PDF RESUME</a>
-        </div>
           <br />
           <span className="timelineHeader resumeHeader">
             Skills and Experience

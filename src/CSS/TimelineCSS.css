@@ -1,0 +1,93 @@
+.imgcard {
+  padding: 20px 25px;
+  max-width: 100%;
+  height: auto;
+  margin-top: -15px;
+  border-width: thick;
+}
+
+.timelineHeader{
+  text-decoration: underline;
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+  text-shadow:
+		-.1vw -.1vw 0 teal,
+		.1vw -.1vw 0 teal,
+		-.1vw .1vw 0 teal,
+		.1vw .1vw 0 teal;
+}
+
+.backtext{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.backTitle{
+  font-size: 1.3em;
+  color: blue;
+}
+
+.backLink{
+  font-size: 1.3em;
+}
+
+.backFacts{
+  text-align: left;
+  font-size: 1em;
+}
+
+.backTag{
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.noLink {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-decoration-color: black
+}
+
+.timelinecontainer {
+  margin: 10px;
+  padding: 10px;
+  background-color: #C1BEBB;
+}
+
+
+@media only screen
+  and (max-device-width : 630px){
+  .backTitle {
+      margin-left: 1em;
+      margin-right: -1em;
+      text-align: left;
+      font-size: 1em;
+      display: flex;
+  }
+  .backtext{
+    font-size: .8em;
+    margin-left: 1em;
+    text-align: left;
+    display: flex;
+  }
+  .backTag{
+    font-size: .9em;
+    margin-left: 1em;
+    text-align: left;
+    display: flex;
+  }
+  .noLink {
+    font-size: 1em;
+    margin-left: 1em;
+    text-align: left;
+  }
+
+  .titleIcon{
+    padding: 2em;
+  }
+
+  .headText{
+    font-size: 2em;
+  }
+}
