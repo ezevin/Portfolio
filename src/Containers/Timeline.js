@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
+import "../CSS/TimelineCSS.css"
+// import "../CSS/SlideReveal.css"
+import "../CSS/FlipCard.css"
+
 import TitleContainer from './TitleContainer'
 import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
 import AboutMe from "../Components/AboutMe"
 import Resume from "./Resume"
-
-import "../CSS/TimelineCSS.css"
 
 class Timeline extends Component{
   render (){
