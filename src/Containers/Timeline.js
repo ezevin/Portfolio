@@ -6,7 +6,8 @@ import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
 import AboutMe from "../Components/AboutMe"
 import Resume from "./Resume"
-import TimelineCSS from "../CSS/TimelineCSS.css"
+
+import "../CSS/TimelineCSS.css"
 
 class Timeline extends Component{
   render (){
