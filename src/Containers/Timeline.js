@@ -8,7 +8,6 @@ import TitleContainer from './TitleContainer'
 import FabFolio from "../Components/FabFolio"
 import Bookwyrm from "../Components/Bookwyrm"
 import PawfectMatch from "../Components/PawfectMatch"
-import AboutMe from "../Components/AboutMe"
 import Resume from "./Resume"
 
 class Timeline extends Component{

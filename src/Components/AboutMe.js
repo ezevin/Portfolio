@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import "../CSS/SocialMedia.css"
+
 import Profile from "../assets/Profile.jpg"
 
 class AboutMe extends Component{

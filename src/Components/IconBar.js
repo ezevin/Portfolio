@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import "../CSS/SocialMedia.css"
+
 class IconBar extends Component{
 
   render (){

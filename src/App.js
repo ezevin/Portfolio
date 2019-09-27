@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
 
 import './App.css';
 import Timeline from './Containers/Timeline'
@@ -19,9 +18,3 @@ function App() {
 }
 
 export default App;
-
-// <div className="scroll">
-// <Route exact path="/" component={Timeline} />
-// <Route exact path="/home" component={Timeline} />
-// <Route exact path="/resume" component={Resume} />
-// </div>

@@ -218,7 +218,7 @@ code {
 /* end flip card feature */
 
 /*social media */
-.fa {
+/* .fa {
   margin: .1vw;
   color: black;
   width: 3vw;
@@ -244,9 +244,7 @@ code {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 3
-  /* border-style: solid; */
-  /* border-radius: 50% */
+  z-index: 3;
 }
 
 .icon-bar a {
@@ -260,7 +258,7 @@ code {
 
 .icon-bar a:hover {
   background-color: white;
-}
+} */
 /* end social media */
 
 
