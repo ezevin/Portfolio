@@ -1,0 +1,130 @@
+.resumeHead {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.titleName {
+  font-size: 2rem;
+  margin: 5vw;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center
+}
+
+@media screen and (max-width: 450px) {
+  .titleName {
+    font-size: 1.7rem;
+    margin-left: 9vw;
+    margin-bottom: 1.5vw;
+  }
+  .bodyHeader{
+    margin-left: 5vw;
+    margin-bottom: 1.5vw;
+  }
+  .bodyText {
+    margin-left: 15vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+  }
+  .bold {
+    margin-left: 10vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+  }
+  .italics {
+    margin-left: 10vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+  }
+  .resumeLinks{
+    margin-left: 8vw;
+    margin-bottom: 1.5vw;
+  }
+}
+
+.resumeBio {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bodyHeader {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  color: black;
+  text-emphasis-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow-y: scroll;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.bodyText {
+  font-size: 1rem;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+.italics {
+  font-style: italic;
+  color: black;
+}
+.indent {
+  text-indent: 2vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: .5vw;
+  margin-right: -4vw;
+  margin-left: 15vw;
+}
+
+@media screen and (max-width: 770px) {
+  .grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-left: 20vw;
+  }
+  .resumeHeader{
+    font-size: 1.5em;
+  }
+}
+
+.shiftRight {
+  text-align: right;
+  padding-right: 5vw;
+  font-size: 1rem;
+}
+
+.resumeText {
+  margin-left: 10vw;
+}
+
+.bio {
+  margin-left: 13vw;
+  margin-right: 10vw;
+  font-size: 1.2em;
+  font-style: italic;
+  border-style: groove;border-width: 1vw;
+  border-color: teal;
+  padding: 1vw;
+  font-weight: bold;
+}

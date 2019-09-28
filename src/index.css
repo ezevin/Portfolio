@@ -263,7 +263,7 @@ code {
 
 
 /* Resume Layout */
-.resumeHead {
+/* .resumeHead {
   font-size: 2rem;
   font-weight: bold;
   text-decoration: underline;
@@ -303,7 +303,6 @@ code {
   }
   .resumeLinks{
     margin-left: 8vw;
-    /* margin-right: 5vw; */
     margin-bottom: 1.5vw;
   }
 }
@@ -328,9 +327,7 @@ code {
 
 .bodyText {
   font-size: 1rem;
-  /* font-weight: bold; */
   color: black;
-  /* margin-left: 3vw; */
 }
 
 .bold {
@@ -395,7 +392,7 @@ code {
   border-color: teal;
   padding: 1vw;
   font-weight: bold;
-}
+} */
 
 
 /* End Resume Layout */

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import '../CSS/NavBarCSS.css'
+import '../CSS/ResumeCSS.css'
 
 class Resume extends Component{
   render (){
