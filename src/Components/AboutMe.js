@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import "../CSS/SocialMedia.css"
+import "../CSS/SlideReveal.css"
 
 import Profile from "../assets/Profile.jpg"
 
