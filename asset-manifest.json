@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb43cb4a.chunk.css",
-    "main.js": "/portfolio/static/js/main.70100b83.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.70100b83.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.37d85aa7.chunk.js": "/portfolio/static/js/2.37d85aa7.chunk.js",
-    "static/js/2.37d85aa7.chunk.js.map": "/portfolio/static/js/2.37d85aa7.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.90ca4fe5b2d00725eb2fbd8b1ebafec6.js": "/portfolio/precache-manifest.90ca4fe5b2d00725eb2fbd8b1ebafec6.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.eb43cb4a.chunk.css.map": "/portfolio/static/css/main.eb43cb4a.chunk.css.map",
-    "static/media/SlideReveal.css": "/portfolio/static/media/Background.890c3b65.png",
-    "static/media/Book.png": "/portfolio/static/media/Book.e0e523f3.png",
-    "static/media/Fabfolio.png": "/portfolio/static/media/Fabfolio.7f9184ac.png",
-    "static/media/Pawfect.png": "/portfolio/static/media/Pawfect.b877acd4.png",
-    "static/media/Profile.jpg": "/portfolio/static/media/Profile.08122754.jpg"
+    "main.css": "/static/css/main.73e9768d.chunk.css",
+    "main.js": "/static/js/main.41292002.chunk.js",
+    "main.js.map": "/static/js/main.41292002.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.37d85aa7.chunk.js": "/static/js/2.37d85aa7.chunk.js",
+    "static/js/2.37d85aa7.chunk.js.map": "/static/js/2.37d85aa7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a7a3683bd1c9dc1e17210ba8c217cf8d.js": "/precache-manifest.a7a3683bd1c9dc1e17210ba8c217cf8d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.73e9768d.chunk.css.map": "/static/css/main.73e9768d.chunk.css.map",
+    "static/media/SlideReveal.css": "/static/media/Background.890c3b65.png",
+    "static/media/Book.png": "/static/media/Book.e0e523f3.png",
+    "static/media/Fabfolio.png": "/static/media/Fabfolio.7f9184ac.png",
+    "static/media/Pawfect.png": "/static/media/Pawfect.b877acd4.png",
+    "static/media/Profile.jpg": "/static/media/Profile.08122754.jpg"
   }
 }
