@@ -21,6 +21,7 @@ class Resume extends Component{
           <span className="bodyHeader">Technical Skills:</span>
           <br /><br />
             <div className="grid bodyText">
+              <ul>
                 <div><li>Ruby (on Rails)</li></div>
                 <div><li>HTML/CSS</li></div>
                 <div><li>SQL</li></div>
@@ -33,6 +34,7 @@ class Resume extends Component{
                 <div><li>AutoCAD</li></div>
                 <div><li>Photoshop</li></div>
                 <div><li>Microsoft Office</li></div>
+              </ul>
             </div>
             <br />
           <span className="bodyHeader">Technical Projects</span>

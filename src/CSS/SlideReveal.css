@@ -60,7 +60,7 @@
       padding-left: 15vw;
       padding-right: -2vw;
       font-weight: bold;
-      background-image: url("/Option3.jpg");
+      background-image: url({"../assets/Option3.jpg"});
       background-size: cover;
 
     }
